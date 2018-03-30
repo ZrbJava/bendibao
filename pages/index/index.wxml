@@ -1,0 +1,13 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <swiper-item class="swiperBox" wx:for="{{swiperUrl}}" wx:key="*this">
+    <image src="{{item.image}}" class="slide-image" mode='aspectFill'/>
+  </swiper-item>
+</swiper>
+</view>
+<view class='navBox'>
+  <navigator url="/pages/list/list?cat={{item.id}}" wx:for="{{nav}}" wx:key="*this" class='nav_until'>
+      <image src="{{item.icon}}"></image>
+      <text>{{item.name}}</text>
+  </navigator>
+</view>

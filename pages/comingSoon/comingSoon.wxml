@@ -1,0 +1,12 @@
+<!-- pages/comingSoon/comingSoon.wxml -->
+<navigator url="/pages/test/test" class="section cleanfix" wx:for="{{films}}" wx:key="*this">
+    <image class="poster" src="{{item.img}}"></image>
+    <view class="desc">
+        <view><text>电影名字</text>: {{item.nm}}</view>
+        <view><text>上映时间</text>: {{item.rt}}</view>
+        <view><text>价格</text>: ￥{{item.dur}}</view>
+        <view><text>描述</text>: {{item.scm}}</view>
+        <view><text>明星</text>: {{item.star}}</view>
+        <view><text>类型</text>: {{item.cat}}</view>
+    </view>
+</navigator>

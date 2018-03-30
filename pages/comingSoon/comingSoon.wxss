@@ -1,0 +1,43 @@
+/* pages/comingSoon/comingSoon.wxss */
+
+.poster {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    /* border: 1px solid #000; */
+}
+
+.desc {
+    /* float:left; */
+    font-size: 24rpx;
+    color: #666;
+}
+
+.desc view {
+    margin-bottom: 10rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.desc text {
+    font-size: 32rpx;
+    font-weight: bold;
+}
+
+.section {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    display:block;
+    background: #fff;
+}
+
+.cleanfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}

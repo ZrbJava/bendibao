@@ -1,0 +1,27 @@
+
+ .slide-image{
+    width:100%;  
+} 
+.navBox{
+  margin-top:20px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  font-size:32rpx;
+  box-sizing: border-box;
+  
+}
+.nav_until{
+  display:flex;
+  flex-direction: column;
+  width:33%;
+  height:140rpx;
+  justify-content: center;
+  align-items:center;
+  margin-bottom:30px;
+}
+.navBox image{
+  width:30px;
+  height:30px; 
+  margin-bottom:10px;
+}
